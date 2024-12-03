@@ -1,645 +1,1156 @@
 <!DOCTYPE html>
 <html lang="ca">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="description" content="Codis365 Landing Page, Projecte Final de Grau, Grau d'Enginyeria Informàtica, 2024, jbalcellss@uoc.edu">
-    <meta name="author" content="Jordi Balcells (jbalcellss@uoc.edu)">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="Codis365 Landing Page, Projecte Final de Grau, Grau d'Enginyeria Informàtica, 2024, jbalcellss@uoc.edu"
+    />
+    <meta name="author" content="Jordi Balcells (jbalcellss@uoc.edu)" />
 
     <title>Codis365 (FTG-GEI-2024)</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Animation CSS -->
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
 
     <!-- CSS Styles -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
 
-    <meta name="keywords" content="your, keywords, here">
-    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="your, keywords, here" />
+    <meta name="robots" content="index, follow" />
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
 
-
     <!-- Standard favicon -->
-    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
 
     <!-- Recommended favicon format -->
-    <link rel="icon" type="image/png" href="favicon/favicon.png">
+    <link rel="icon" type="image/png" href="favicon/favicon.png" />
 
     <!-- Apple Touch Icons for various sizes -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
 
     <!-- For Android -->
-    <link rel="icon" sizes="192x192" href="favicon//android-chrome-192x192.png">
-    <link rel="icon" sizes="512x512" href="favicon//android-chrome-512x512.png">
+    <link
+      rel="icon"
+      sizes="192x192"
+      href="favicon//android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      sizes="512x512"
+      href="favicon//android-chrome-512x512.png"
+    />
 
     <!-- Microsoft Tiles -->
-    <meta name="msapplication-square70x70logo" content="/mstile-70x70.png">
-    <meta name="msapplication-square150x150logo" content="/mstile-150x150.png">
-    <meta name="msapplication-wide310x150logo" content="/mstile-310x150.png">
-    <meta name="msapplication-square310x310logo" content="/mstile-310x310.png">
+    <meta name="msapplication-square70x70logo" content="/mstile-70x70.png" />
+    <meta
+      name="msapplication-square150x150logo"
+      content="/mstile-150x150.png"
+    />
+    <meta name="msapplication-wide310x150logo" content="/mstile-310x150.png" />
+    <meta
+      name="msapplication-square310x310logo"
+      content="/mstile-310x310.png"
+    />
 
     <!-- Safari Pinned Tab Icon -->
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 
     <!-- Manifest for web application -->
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
 
-</head>
-
-<body id="page-top" class="landing-page no-skin-config">
+  <body id="page-top" class="landing-page no-skin-config">
     <div class="navbar-wrapper">
-        <nav class="navbar navbar-default navbar-fixed-top navbar-expand-md">
-            <div class="container">
-                <div class="navbar-brand">
-                    <img src="img/logo.png" width="220" alt="Codis365 Logo" class="inverted-logo">
-                </div>                
-                <div class="navbar-header page-scroll">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-label="button for top bar navigation bar">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="nav-link page-scroll" href="#page-top">Home</a></li>
-                        <li><a class="nav-link page-scroll" href="#features">Característiques</a></li>
-                        <li><a class="nav-link page-scroll" href="#team">Equip</a></li>
-                        <li><a class="nav-link page-scroll" href="#testimonials">Testimonis</a></li>
-                        <li><a class="nav-link page-scroll" href="#pricing">Preus</a></li>
-                        <li><a class="nav-link page-scroll" href="#contact">Contacte</a></li>
-                        <li><a class="nav-link page-scroll btnlogin" href="https://backend.codis365.cat"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <div id="inSlider" class="carousel slide" data-ride="carousel" >
-        <ol class="carousel-indicators">
-            <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-            <li data-target="#inSlider" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox" aria-label="Image carousel">
-            <div class="carousel-item active">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h2 class="h2ash2" aria-label="Títol del carrusel">Dissenyem<br>catàlegs, branding<br>
-                            i enllaços avançats<br>
-                        som: Codis365</h2>
-                        <p>Transformant negocis amb solucions web</p>
-                        <p>
-                            <a class="btn btn-lg btn-primary" href="#features" role="button">Llegeix més sobre Codis365</a>
-                            <a class="caption-link" href="#pricing" role="button" aria-label="Enllaç detall de preus">Preus del servei</a>
-                        </p>
-                    </div>
-                    <div class="carousel-image wow zoomIn">
-                        <img src="img/laptop.png" width="632" height="378" alt="laptop advertising image for fist slide">
-                    </div>
-                </div>
-                <!-- Set background for slide in css -->
-                <div class="header-back one"></div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="carousel-caption blank">
-                        <h2 class="h2ash2">Creem codis significatius <br> que inspiren</h2>
-                        <p>Una eina que et permet crear tot tipus de codis de barres</p>
-                        <p>Impulsant el teu viatge digital</p>
-                        <p><a class="btn btn-lg btn-primary" href="#features" role="button" aria-label="botó més informació sobre les característiques">Més informació</a></p>
-                    </div>
-                </div>
-                <!-- Set background for slide in css -->
-                <div class="header-back two"></div>
-            </div>
+      <nav class="navbar navbar-default navbar-fixed-top navbar-expand-md">
+        <div class="container">
+          <div class="navbar-brand">
+            <img
+              src="img/logo.png"
+              width="220"
+              alt="Codis365 Logo"
+              class="inverted-logo"
+            />
+          </div>
+          <div class="navbar-header page-scroll">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbar"
+              aria-label="button for top bar navigation bar"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="nav-link page-scroll" href="#page-top">Home</a></li>
+              <li>
+                <a class="nav-link page-scroll" href="#features"
+                  >Característiques</a
+                >
+              </li>
+              <li><a class="nav-link page-scroll" href="#team">Equip</a></li>
+              <li>
+                <a class="nav-link page-scroll" href="#testimonials"
+                  >Testimonis</a
+                >
+              </li>
+              <li><a class="nav-link page-scroll" href="#pricing">Preus</a></li>
+              <li>
+                <a class="nav-link page-scroll" href="#contact">Contacte</a>
+              </li>
+              <li>
+                <a
+                  class="nav-link page-scroll btnlogin"
+                  href="https://backend.codis365.cat"
+                  ><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <a class="carousel-control-prev" href="#inSlider" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#inSlider" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+      </nav>
     </div>
-
+    <div id="inSlider" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox" aria-label="Image carousel">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="carousel-caption">
+              <h2 class="h2ash2" aria-label="Títol del carrusel">
+                Dissenyem<br />catàlegs, branding<br />
+                i enllaços avançats<br />
+                som: Codis365
+              </h2>
+              <p>Transformant negocis amb solucions web</p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#features" role="button"
+                  >Llegeix més sobre Codis365</a
+                >
+                <a
+                  class="caption-link"
+                  href="#pricing"
+                  role="button"
+                  aria-label="Enllaç detall de preus"
+                  >Preus del servei</a
+                >
+              </p>
+            </div>
+            <div class="carousel-image wow zoomIn">
+              <img
+                src="img/laptop.png"
+                width="632"
+                height="378"
+                alt="laptop advertising image for fist slide"
+              />
+            </div>
+          </div>
+          <!-- Set background for slide in css -->
+          <div class="header-back one"></div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="carousel-caption blank">
+              <h2 class="h2ash2">
+                Creem codis significatius <br />
+                que inspiren
+              </h2>
+              <p>Una eina que et permet crear tot tipus de codis de barres</p>
+              <p>Impulsant el teu viatge digital</p>
+              <p>
+                <a
+                  class="btn btn-lg btn-primary"
+                  href="#features"
+                  role="button"
+                  aria-label="botó més informació sobre les característiques"
+                  >Més informació</a
+                >
+              </p>
+            </div>
+          </div>
+          <!-- Set background for slide in css -->
+          <div class="header-back two"></div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#inSlider"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#inSlider"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
     <section id="features" class="container services">
-        <div class="row">
-            <div class="col-sm-3">
-                <h2>Eina de personalització dinàmica de codis de barres</h2>
-                <p>Aquesta eina permet a usuaris personalitzar completament els seus codis de barres. Més enllà de seleccionar formats estàndard (com UPC, QR, EAN, etc.), els usuaris poden ajustar dimensions, colors i afegir logotips o textos a l'interior o al voltant del codi de barres. Aquesta funcionalitat es especialment útil per a marques que volen mantenir la coherència visual dels seus productes o per a esdeveniments especials que requereixen codis únics.</p>
-                <p><a class="navy-link" href="#features" role="button">Detalls &raquo;</a></p>
-            </div>
-            <div class="col-sm-3">
-                <h2>Prova i validació de codis de barres en temps real</h2>
-                <p>Integra una funció que permet als usuaris escanejar i provar la llegibilitat dels codis de barres generats directament amb la càmera del seu dispositiu. Això pot incloure proves sota diferents condicions de llum i a diverses distàncies, assegurant que el codi funcionionarà correctament en una àmplia gamma de situacions. A més, aquesta funció pot oferir suggeriments d'optimització basats en els resultats de les proves.</p>
-                <p><a class="navy-link" href="#features" role="button">Detalls &raquo;</a></p>
-            </div>
-            <div class="col-sm-3">
-                <h2>Generació i gestió massiva de codis de barres</h2>
-                <p>Dissenyat per a empreses que necessiten crear codis de barres en massa per a múltiples productes, aquesta funció permet als usuaris carregar un fitxer CSV o Excel amb informació del producte i generar automàticament codis de barres per a cada ítem. A més, inclou opcions per gestionar i organitzar aquests codis en carpetes o projectes, facilitant-ne el seguiment i l'actualització.</p>
-                <p><a class="navy-link" href="#features" role="button">Detalls &raquo;</a></p>
-            </div>
-            <div class="col-sm-3">
-                <h2>Previsualització de codis de barres amb realitat augmentada</h2>
-                <p>Aprofitant la tecnologia de realitat augmentada, aquesta funció permet als usuaris visualitzar com quedarien els codis de barres sobre els seus productes en la vida real. Usant la càmera del dispositiu, els usuaris podrien apuntar a un producte i l'app superposaria el codi de barres a la posició desitjada. Això seria especialment útil per visualitzar la col·locació i la mida del codi abans de la producció final de l'embalatge o l'etiquetatge del producte.</p>
-                <p><a class="navy-link" href="#features" role="button">Detalls &raquo;</a></p>
-            </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <h2>Eina de personalització dinàmica de codis de barres</h2>
+          <p>
+            Aquesta eina permet a usuaris personalitzar completament els seus
+            codis de barres. Més enllà de seleccionar formats estàndard (com
+            UPC, QR, EAN, etc.), els usuaris poden ajustar dimensions, colors i
+            afegir logotips o textos a l'interior o al voltant del codi de
+            barres. Aquesta funcionalitat es especialment útil per a marques que
+            volen mantenir la coherència visual dels seus productes o per a
+            esdeveniments especials que requereixen codis únics.
+          </p>
+          <p>
+            <a class="navy-link" href="#features" role="button"
+              >Detalls &raquo;</a
+            >
+          </p>
         </div>
+        <div class="col-sm-3">
+          <h2>Prova i validació de codis de barres en temps real</h2>
+          <p>
+            Integra una funció que permet als usuaris escanejar i provar la
+            llegibilitat dels codis de barres generats directament amb la càmera
+            del seu dispositiu. Això pot incloure proves sota diferents
+            condicions de llum i a diverses distàncies, assegurant que el codi
+            funcionionarà correctament en una àmplia gamma de situacions. A més,
+            aquesta funció pot oferir suggeriments d'optimització basats en els
+            resultats de les proves.
+          </p>
+          <p>
+            <a class="navy-link" href="#features" role="button"
+              >Detalls &raquo;</a
+            >
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <h2>Generació i gestió massiva de codis de barres</h2>
+          <p>
+            Dissenyat per a empreses que necessiten crear codis de barres en
+            massa per a múltiples productes, aquesta funció permet als usuaris
+            carregar un fitxer CSV o Excel amb informació del producte i generar
+            automàticament codis de barres per a cada ítem. A més, inclou
+            opcions per gestionar i organitzar aquests codis en carpetes o
+            projectes, facilitant-ne el seguiment i l'actualització.
+          </p>
+          <p>
+            <a class="navy-link" href="#features" role="button"
+              >Detalls &raquo;</a
+            >
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <h2>Previsualització de codis de barres amb realitat augmentada</h2>
+          <p>
+            Aprofitant la tecnologia de realitat augmentada, aquesta funció
+            permet als usuaris visualitzar com quedarien els codis de barres
+            sobre els seus productes en la vida real. Usant la càmera del
+            dispositiu, els usuaris podrien apuntar a un producte i l'app
+            superposaria el codi de barres a la posició desitjada. Això seria
+            especialment útil per visualitzar la col·locació i la mida del codi
+            abans de la producció final de l'embalatge o l'etiquetatge del
+            producte.
+          </p>
+          <p>
+            <a class="navy-link" href="#features" role="button"
+              >Detalls &raquo;</a
+            >
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section  class="container features">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h2 class="h2ash1">Més de 40+ simbologies úniques de codis de barres<br> <span class="navy"> amb diverses opcions de personalització</span> </h2>
-                <p>Pots personalitzar qualsevol dels codis generats.</p>
-            </div>
+    <section class="container features">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="navy-line"></div>
+          <h2 class="h2ash1">
+            Més de 40+ simbologies úniques de codis de barres<br />
+            <span class="navy"> amb diverses opcions de personalització</span>
+          </h2>
+          <p>Pots personalitzar qualsevol dels codis generats.</p>
         </div>
-        <div class="row">
-            <div class="col-md-3 text-center wow fadeInLeft">
-                <div>
-                    <i class="fa fa-mobile features-icon"></i>
-                    <h2>Totalment responsiu</h2>
-                    <p>Aprofita el poder del nostre panell d'anàlisi amb gràfics dinàmics que fan un seguiment del rendiment i les taxes d'escaneig dels teus codis de barres generats, permetent prendre decisions basades en dades per al teu negoci.</p>
-                </div>
-                <div class="m-t-lg">
-                    <i class="fa fa-bar-chart features-icon"></i>
-                    <h2>Gestor de gràfics</h2>
-                    <p>Els gràfics interactius del gestor de codis de barres de Codis365 proporcionen informació visual instantània sobre l'inventari de codis de barres, mostrant tendències en la distribució de productes i els nivells d'estoc al llarg del temps.</p>
-                </div>
-            </div>
-            <div class="col-md-6 text-center wow zoomIn">
-                <img src="img/perspective.png" width="540" height="402" alt="imatge perspectiva per atribut alt" class="img-fluid">
-            </div>
-            <div class="col-md-3 text-center wow fadeInRight">
-                <div>
-                    <i class="fa fa-envelope features-icon"></i>
-                    <h2>Explora</h2>
-                    <p>Explora l'eficiència de la teva logística a través dels gràfics del gestor de codis de barres de Codis365, visualitzant la distribució geogràfica dels teus productes basant-se en escaneigs de codis de diferents regions.</p>
-                </div>
-                <div class="m-t-lg">
-                    <i class="fa fa-google features-icon"></i>
-                    <h2>Versió avançada</h2>
-                    <p>Pots comparar fàcilment els patrons d'ús de diversos tipus de codis de barres gràcies a les nostres eines completes de gràfics, ajudant-te a optimitzar la teva estratègia de codis de barres per obtenir el màxim impacte.</p>
-                </div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 text-center wow fadeInLeft">
+          <div>
+            <i class="fa fa-mobile features-icon"></i>
+            <h2>Totalment responsiu</h2>
+            <p>
+              Aprofita el poder del nostre panell d'anàlisi amb gràfics dinàmics
+              que fan un seguiment del rendiment i les taxes d'escaneig dels
+              teus codis de barres generats, permetent prendre decisions basades
+              en dades per al teu negoci.
+            </p>
+          </div>
+          <div class="m-t-lg">
+            <i class="fa fa-bar-chart features-icon"></i>
+            <h2>Gestor de gràfics</h2>
+            <p>
+              Els gràfics interactius del gestor de codis de barres de Codis365
+              proporcionen informació visual instantània sobre l'inventari de
+              codis de barres, mostrant tendències en la distribució de
+              productes i els nivells d'estoc al llarg del temps.
+            </p>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h2 class="h2ash1">Explora encara més possibilitats!</h2>
-                <p>"Descobreix funcionalitats incomparables: endinsa't en un món on la innovació es combina amb la practicitat amb les solucions de codis de barres de Codis365. Les nostres aplicacions web riques en funcionalitats ofereixen una experiència sense igual, dissenyades per millorar la implicació dels usuaris i l'eficiència operativa. Experimenta l'excel·lència a l'abast de la mà i desbloqueja tot el potencial del teu negoci."</p>
-            </div>
+        <div class="col-md-6 text-center wow zoomIn">
+          <img
+            src="img/perspective.png"
+            width="540"
+            height="402"
+            alt="imatge perspectiva per atribut alt"
+            class="img-fluid"
+          />
         </div>
-        <div class="row features-block">
-            <div class="col-lg-6 features-text wow fadeInLeft">
-                <small>Codis365</small>
-                <h2>Disseny perfecte</h2>
-                <p>Els codis de barres dissenyats a la perfecció garanteixen escaneigs sense errors en tot moment, millorant l'eficiència operativa i reduint els temps de caixa en entorns de venda al detall. Els nostres codis estan creats per complir amb els estàndards precisos de la indústria, garantint la compatibilitat amb totes les tecnologies d'escaneig i els requisits de la cadena de subministrament.</p>
-                <a href="" class="btn btn-primary">Més informació</a>
-            </div>
-            <div class="col-lg-6 text-right wow fadeInRight">
-                <img src="img/dashboard.png" width="457" height="289" alt="exemple d'imatge de panell de control per a aquesta secció" class="img-fluid float-right">
-            </div>
+        <div class="col-md-3 text-center wow fadeInRight">
+          <div>
+            <i class="fa fa-envelope features-icon"></i>
+            <h2>Explora</h2>
+            <p>
+              Explora l'eficiència de la teva logística a través dels gràfics
+              del gestor de codis de barres de Codis365, visualitzant la
+              distribució geogràfica dels teus productes basant-se en escaneigs
+              de codis de diferents regions.
+            </p>
+          </div>
+          <div class="m-t-lg">
+            <i class="fa fa-google features-icon"></i>
+            <h2>Versió avançada</h2>
+            <p>
+              Pots comparar fàcilment els patrons d'ús de diversos tipus de
+              codis de barres gràcies a les nostres eines completes de gràfics,
+              ajudant-te a optimitzar la teva estratègia de codis de barres per
+              obtenir el màxim impacte.
+            </p>
+          </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="navy-line"></div>
+          <h2 class="h2ash1">Explora encara més possibilitats!</h2>
+          <p>
+            "Descobreix funcionalitats incomparables: endinsa't en un món on la
+            innovació es combina amb la practicitat amb les solucions de codis
+            de barres de Codis365. Les nostres aplicacions web riques en
+            funcionalitats ofereixen una experiència sense igual, dissenyades
+            per millorar la implicació dels usuaris i l'eficiència operativa.
+            Experimenta l'excel·lència a l'abast de la mà i desbloqueja tot el
+            potencial del teu negoci."
+          </p>
+        </div>
+      </div>
+      <div class="row features-block">
+        <div class="col-lg-6 features-text wow fadeInLeft">
+          <small>Codis365</small>
+          <h2>Disseny perfecte</h2>
+          <p>
+            Els codis de barres dissenyats a la perfecció garanteixen escaneigs
+            sense errors en tot moment, millorant l'eficiència operativa i
+            reduint els temps de caixa en entorns de venda al detall. Els
+            nostres codis estan creats per complir amb els estàndards precisos
+            de la indústria, garantint la compatibilitat amb totes les
+            tecnologies d'escaneig i els requisits de la cadena de
+            subministrament.
+          </p>
+          <a href="" class="btn btn-primary">Més informació</a>
+        </div>
+        <div class="col-lg-6 text-right wow fadeInRight">
+          <img
+            src="img/dashboard.png"
+            width="457"
+            height="289"
+            alt="exemple d'imatge de panell de control per a aquesta secció"
+            class="img-fluid float-right"
+          />
+        </div>
+      </div>
     </section>
 
     <section id="team" class="gray-section team">
-        <div class="container">
-            <div class="row m-b-lg">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
-                    <h2 class="h2ash1">El nostre equip</h2>
-                    <p>Som un petit equip que cobreix totes les àrees de l'empresa.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 wow fadeInLeft">
-                    <div class="team-member">
-                        <img src="img/avatar3.jpg" class="img-fluid rounded-circle img-small" width="128" height="128" alt="primera persona de l'equip de la nostra empresa">
-                        <h3><span class="navy">Amelia Smith</span>, Dissenyadora UI/UX principal</h3>
-                        <p>Dissenyar interfícies d'usuari atractives i fàcils d'utilitzar. Realitzar estudis i proves amb usuaris per assegurar que l'aplicació web compleix les necessitats del públic objectiu. Treballar estretament amb els desenvolupadors per implementar dissenys amb precisió. Mantenir-se actualitzada amb les últimes tendències i tecnologies de disseny per millorar contínuament l'experiència d'usuari.</p>
-                        <ul class="list-inline social-icon">
-                            <li class="list-inline-item"><a href="https://twiter.com/codis365.cat/amelia" aria-label="Segueix-me a Twitter, sóc l'Amelia"> <i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="https://facebook.com/codis365.cat/amelia" aria-label="Segueix-me a Facebook, sóc l'Amelia"> <i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="https://linkedin.com/codis365.cat/amelia" aria-label="Segueix-me a Linkedin, sóc l'Amelia"> <i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member wow zoomIn">
-                        <img src="img/avatar1.jpg" class="img-fluid rounded-circle" width="128" height="128" alt="segona persona de l'equip de la nostra empresa">
-                        <h4><span class="navy">John Noval</span>, Desenvolupador Full Stack</h4>
-                        <p>Desenvolupar i mantenir els components front-end i back-end de l'aplicació web. Garantir el rendiment, la qualitat i la capacitat de resposta de l'aplicació. Integrar serveis i API de tercers. Col·laborar amb l'equip de disseny per fer realitat els conceptes visuals. Implementar mesures de seguretat i protecció de dades.</p>
-                        <ul class="list-inline social-icon">
-                            <li class="list-inline-item"><a href="https://twiter.com/codis365.cat/John" aria-label="Segueix-me a Twitter, sóc en John"> <i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="https://facebook.com/codis365.cat/John" aria-label="Segueix-me a Facebook, sóc en John"> <i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="https://linkedin.com/codis365.cat/john" aria-label="Segueix-me a Linkedin, sóc en John"> <i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInRight">
-                    <div class="team-member">
-                        <img src="img/avatar2.jpg" class="img-fluid rounded-circle img-small" width="128" height="128" alt="tercera persona de l'equip de la nostra empresa">
-                        <h4><span class="navy">Peter Johnson</span>, Gestor de Projectes</h4>
-                        <p>Coordinar els equips de desenvolupament i disseny per assegurar que els projectes es completen dins dels terminis i pressupostos. Gestionar l'abast dels projectes, les línies de temps i els recursos de manera efectiva. Comunicar-se amb els interessats per recopilar requisits i proporcionar actualitzacions de progrés. Identificar i mitigar riscos dels projectes. Fomentar un ambient d'equip col·laboratiu i productiu.</p>
-                        <ul class="list-inline social-icon">
-                            <li class="list-inline-item"><a href="https://twiter.com/codis365.cat/peter" aria-label="Segueix-me a Twitter, sóc en Peter"> <i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="https://facebook.com/codis365.cat/peter" aria-label="Segueix-me a Facebook, sóc en Peter"> <i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="https://linkedin.com/codis365.cat/peter" aria-label="Segueix-me a Linkedin, sóc en Peter"> <i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center m-t-lg m-b-lg">
-                    <p>"El nostre equip de professionals dedicats està a l'avantguarda de la tecnologia de codis de barres, combinant pensament innovador amb anys d'experiència en la indústria per oferir solucions que no només són efectives, sinó també transformadores. Som apassionats per empoderar les empreses amb les eines que necessiten per triomfar en un mercat tan dinàmic com el d'avui. Uneix-te a nosaltres i creem junts el futur de la gestió d'inventaris."</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row m-b-lg">
+          <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h2 class="h2ash1">El nostre equip</h2>
+            <p>Som un petit equip que cobreix totes les àrees de l'empresa.</p>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-sm-4 wow fadeInLeft">
+            <div class="team-member">
+              <img
+                src="img/avatar3.jpg"
+                class="img-fluid rounded-circle img-small"
+                width="128"
+                height="128"
+                alt="primera persona de l'equip de la nostra empresa"
+              />
+              <h3>
+                <span class="navy">Amelia Smith</span>, Dissenyadora UI/UX
+                principal
+              </h3>
+              <p>
+                Dissenyar interfícies d'usuari atractives i fàcils d'utilitzar.
+                Realitzar estudis i proves amb usuaris per assegurar que
+                l'aplicació web compleix les necessitats del públic objectiu.
+                Treballar estretament amb els desenvolupadors per implementar
+                dissenys amb precisió. Mantenir-se actualitzada amb les últimes
+                tendències i tecnologies de disseny per millorar contínuament
+                l'experiència d'usuari.
+              </p>
+              <ul class="list-inline social-icon">
+                <li class="list-inline-item">
+                  <a
+                    href="https://twiter.com/codis365.cat/amelia"
+                    aria-label="Segueix-me a Twitter, sóc l'Amelia"
+                  >
+                    <i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://facebook.com/codis365.cat/amelia"
+                    aria-label="Segueix-me a Facebook, sóc l'Amelia"
+                  >
+                    <i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://linkedin.com/codis365.cat/amelia"
+                    aria-label="Segueix-me a Linkedin, sóc l'Amelia"
+                  >
+                    <i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member wow zoomIn">
+              <img
+                src="img/avatar1.jpg"
+                class="img-fluid rounded-circle"
+                width="128"
+                height="128"
+                alt="segona persona de l'equip de la nostra empresa"
+              />
+              <h4>
+                <span class="navy">John Noval</span>, Desenvolupador Full Stack
+              </h4>
+              <p>
+                Desenvolupar i mantenir els components front-end i back-end de
+                l'aplicació web. Garantir el rendiment, la qualitat i la
+                capacitat de resposta de l'aplicació. Integrar serveis i API de
+                tercers. Col·laborar amb l'equip de disseny per fer realitat els
+                conceptes visuals. Implementar mesures de seguretat i protecció
+                de dades.
+              </p>
+              <ul class="list-inline social-icon">
+                <li class="list-inline-item">
+                  <a
+                    href="https://twiter.com/codis365.cat/John"
+                    aria-label="Segueix-me a Twitter, sóc en John"
+                  >
+                    <i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://facebook.com/codis365.cat/John"
+                    aria-label="Segueix-me a Facebook, sóc en John"
+                  >
+                    <i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://linkedin.com/codis365.cat/john"
+                    aria-label="Segueix-me a Linkedin, sóc en John"
+                  >
+                    <i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInRight">
+            <div class="team-member">
+              <img
+                src="img/avatar2.jpg"
+                class="img-fluid rounded-circle img-small"
+                width="128"
+                height="128"
+                alt="tercera persona de l'equip de la nostra empresa"
+              />
+              <h4>
+                <span class="navy">Peter Johnson</span>, Gestor de Projectes
+              </h4>
+              <p>
+                Coordinar els equips de desenvolupament i disseny per assegurar
+                que els projectes es completen dins dels terminis i
+                pressupostos. Gestionar l'abast dels projectes, les línies de
+                temps i els recursos de manera efectiva. Comunicar-se amb els
+                interessats per recopilar requisits i proporcionar
+                actualitzacions de progrés. Identificar i mitigar riscos dels
+                projectes. Fomentar un ambient d'equip col·laboratiu i
+                productiu.
+              </p>
+              <ul class="list-inline social-icon">
+                <li class="list-inline-item">
+                  <a
+                    href="https://twiter.com/codis365.cat/peter"
+                    aria-label="Segueix-me a Twitter, sóc en Peter"
+                  >
+                    <i class="fa fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://facebook.com/codis365.cat/peter"
+                    aria-label="Segueix-me a Facebook, sóc en Peter"
+                  >
+                    <i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://linkedin.com/codis365.cat/peter"
+                    aria-label="Segueix-me a Linkedin, sóc en Peter"
+                  >
+                    <i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center m-t-lg m-b-lg">
+            <p>
+              "El nostre equip de professionals dedicats està a l'avantguarda de
+              la tecnologia de codis de barres, combinant pensament innovador
+              amb anys d'experiència en la indústria per oferir solucions que no
+              només són efectives, sinó també transformadores. Som apassionats
+              per empoderar les empreses amb les eines que necessiten per
+              triomfar en un mercat tan dinàmic com el d'avui. Uneix-te a
+              nosaltres i creem junts el futur de la gestió d'inventaris."
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
-                    <h2 class="h2ash1">Encara més funcionalitats...</h2>
-                    <p>El nostre sistema d'inventari de codis de barres inclou una integració perfecta amb API, permetent una sincronització fàcil amb el teu<br>
-                    CRM, ERP o programari de gestió d'emmagatzematge, optimitzant el seguiment d'inventaris i actualitzacions en temps real.</p>
-                </div>
-            </div>
-            <div class="row features-block">
-                <div class="col-lg-3 features-text wow fadeInLeft">
-                    <small>Codis365</small>
-                    <h2>Suport avançat d'API</h2>
-                    <p>Amb un suport robust d'API, la nostra solució de codis de barres facilita l'intercanvi automatitzat de dades, permetent una gestió eficient de l'inventari, des de l'ajust de nivells d'estoc fins al seguiment de la ubicació d'articles, directament a través del teu ecosistema de programari.</p>
-                    <a href="" class="btn btn-primary">Més informació</a>
-                </div>
-                <div class="col-lg-6 text-right m-t-n-lg wow zoomIn">
-                    <img src="img/iphone.jpg" class="img-fluid" width="540" height="448" alt="Exemple d'imatge del panell de control per a la primera secció">
-                </div>
-                <div class="col-lg-3 features-text text-right wow fadeInRight">
-                    <small>Codis365</small>
-                    <h2>Gestió d'inventaris</h2>
-                    <p>Millora el control del teu inventari amb la integració d'API del nostre sistema de codis de barres, connectant fàcilment amb plataformes de tercers per a una anàlisi d'inventari en temps real, assegurant precisió i visibilitat a través de tots els teus canals.</p>
-                    <a href="" class="btn btn-primary">Més informació</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h2 class="h2ash1">Encara més funcionalitats...</h2>
+            <p>
+              El nostre sistema d'inventari de codis de barres inclou una
+              integració perfecta amb API, permetent una sincronització fàcil
+              amb el teu<br />
+              CRM, ERP o programari de gestió d'emmagatzematge, optimitzant el
+              seguiment d'inventaris i actualitzacions en temps real.
+            </p>
+          </div>
         </div>
+        <div class="row features-block">
+          <div class="col-lg-3 features-text wow fadeInLeft">
+            <small>Codis365</small>
+            <h2>Suport avançat d'API</h2>
+            <p>
+              Amb un suport robust d'API, la nostra solució de codis de barres
+              facilita l'intercanvi automatitzat de dades, permetent una gestió
+              eficient de l'inventari, des de l'ajust de nivells d'estoc fins al
+              seguiment de la ubicació d'articles, directament a través del teu
+              ecosistema de programari.
+            </p>
+            <a href="" class="btn btn-primary">Més informació</a>
+          </div>
+          <div class="col-lg-6 text-right m-t-n-lg wow zoomIn">
+            <img
+              src="img/iphone.jpg"
+              class="img-fluid"
+              width="540"
+              height="448"
+              alt="Exemple d'imatge del panell de control per a la primera secció"
+            />
+          </div>
+          <div class="col-lg-3 features-text text-right wow fadeInRight">
+            <small>Codis365</small>
+            <h2>Gestió d'inventaris</h2>
+            <p>
+              Millora el control del teu inventari amb la integració d'API del
+              nostre sistema de codis de barres, connectant fàcilment amb
+              plataformes de tercers per a una anàlisi d'inventari en temps
+              real, assegurant precisió i visibilitat a través de tots els teus
+              canals.
+            </p>
+            <a href="" class="btn btn-primary">Més informació</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="timeline gray-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
-                    <h2 class="h2ash1">El nostre llegat</h2>
-                    <p>"En només uns pocs anys, la nostra empresa ha passat de ser una startup visionària a una força líder en la indústria dels codis de barres, impulsant la innovació i establint nous estàndards d'eficiència i fiabilitat. El nostre viatge reflecteix el nostre compromís amb l'excel·lència i la recerca incessant de solucions que no només compleixin, sinó que superin les necessitats canviants de les empreses a nivell mundial. Amb cada fita, no només marquem el nostre èxit; estem donant forma al futur de com les empreses interactuen amb la tecnologia."</p>
-                </div>
-            </div>
-            <div class="row features-block">
-                <div class="col-lg-12">
-                    <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-                        <div class="vertical-timeline-block">
-                            <div class="vertical-timeline-icon navy-bg">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-
-                            <div class="vertical-timeline-content">
-                                <h2>Fundació</h2>
-                                <p>Codis365 es va establir a principis del 2022 per un grup de desenvolupadors de programari i emprenedors apassionats. L'empresa es va fundar amb la visió d'oferir solucions avançades d'aplicacions web que responguessin a les necessitats d'empreses de totes les mides, amb un enfocament en la innovació, l'experiència d'usuari i l'escalabilitat.</p>
-                                <a href="#features" class="btn btn-xs btn-primary"> Més informació</a>
-                                <span class="vertical-date"> 2022 <br> <small>24 des.</small> </span>
-                            </div>
-                        </div>
-                        <div class="vertical-timeline-block">
-                            <div class="vertical-timeline-icon navy-bg">
-                                <i class="fa fa-file-text"></i>
-                            </div>
-
-                            <div class="vertical-timeline-content">
-                                <h2>Creixement i Reptes</h2>
-                                <p>    <span>Llançament del Producte</span>: El producte estrella es va llançar oficialment al primer trimestre del 2023. Va rebre comentaris positius pel seu disseny fàcil d'utilitzar i la seva flexibilitat, atribuïts en gran part al lideratge de disseny de l'Amelia i a la implementació tècnica del John. <span>Expansió del Mercat</span>: Després del llançament amb èxit, Codis365 va començar a expandir el seu abast, no només enfocant-se en PIMEs sinó també col·laborant amb grans corporacions per oferir solucions personalitzades.</p>
-                                <a href="#features" class="btn btn-xs btn-primary"> Més informació</a>
-                                <span class="vertical-date"> 2023 <br> <small>26 des.</small> </span>
-                            </div>
-                        </div>
-                        <div class="vertical-timeline-block">
-                            <div class="vertical-timeline-icon navy-bg">
-                                <i class="fa fa-cogs"></i>
-                            </div>
-
-                            <div class="vertical-timeline-content">
-                                <h2>Consolidació i Innovació</h2>
-                                <p>    <span>Aliances Estratègiques</span>: Per superar els reptes i consolidar la seva posició al mercat, Codis365 va formar aliances estratègiques amb líders i innovadors tecnològics. <span>Innovació</span>: Sota el lideratge del Peter Johnson, l'empresa va llançar un laboratori d'innovació amb l'objectiu d'explorar tecnologies emergents i integrar-les a les seves solucions. <span>Abast Global</span>: Al llarg de l'any 2024, Codis365 ha entrat amb èxit en diversos mercats internacionals, centrant-se en regions amb una alta demanda de serveis de transformació digital.</p>
-                                <a href="#features" class="btn btn-xs btn-primary"> Més informació</a>
-                                <span class="vertical-date"> 2024... <br> <small>31 des.</small> </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h2 class="h2ash1">El nostre llegat</h2>
+            <p>
+              "En només uns pocs anys, la nostra empresa ha passat de ser una
+              startup visionària a una força líder en la indústria dels codis de
+              barres, impulsant la innovació i establint nous estàndards
+              d'eficiència i fiabilitat. El nostre viatge reflecteix el nostre
+              compromís amb l'excel·lència i la recerca incessant de solucions
+              que no només compleixin, sinó que superin les necessitats
+              canviants de les empreses a nivell mundial. Amb cada fita, no
+              només marquem el nostre èxit; estem donant forma al futur de com
+              les empreses interactuen amb la tecnologia."
+            </p>
+          </div>
         </div>
+        <div class="row features-block">
+          <div class="col-lg-12">
+            <div
+              id="vertical-timeline"
+              class="vertical-container light-timeline center-orientation"
+            >
+              <div class="vertical-timeline-block">
+                <div class="vertical-timeline-icon navy-bg">
+                  <i class="fa fa-briefcase"></i>
+                </div>
+
+                <div class="vertical-timeline-content">
+                  <h2>Fundació</h2>
+                  <p>
+                    Codis365 es va establir a principis del 2022 per un grup de
+                    desenvolupadors de programari i emprenedors apassionats.
+                    L'empresa es va fundar amb la visió d'oferir solucions
+                    avançades d'aplicacions web que responguessin a les
+                    necessitats d'empreses de totes les mides, amb un enfocament
+                    en la innovació, l'experiència d'usuari i l'escalabilitat.
+                  </p>
+                  <a href="#features" class="btn btn-xs btn-primary">
+                    Més informació</a
+                  >
+                  <span class="vertical-date">
+                    2022 <br />
+                    <small>24 des.</small>
+                  </span>
+                </div>
+              </div>
+              <div class="vertical-timeline-block">
+                <div class="vertical-timeline-icon navy-bg">
+                  <i class="fa fa-file-text"></i>
+                </div>
+
+                <div class="vertical-timeline-content">
+                  <h2>Creixement i Reptes</h2>
+                  <p>
+                    <span>Llançament del Producte</span>: El producte estrella
+                    es va llançar oficialment al primer trimestre del 2023. Va
+                    rebre comentaris positius pel seu disseny fàcil d'utilitzar
+                    i la seva flexibilitat, atribuïts en gran part al lideratge
+                    de disseny de l'Amelia i a la implementació tècnica del
+                    John. <span>Expansió del Mercat</span>: Després del
+                    llançament amb èxit, Codis365 va començar a expandir el seu
+                    abast, no només enfocant-se en PIMEs sinó també col·laborant
+                    amb grans corporacions per oferir solucions personalitzades.
+                  </p>
+                  <a href="#features" class="btn btn-xs btn-primary">
+                    Més informació</a
+                  >
+                  <span class="vertical-date">
+                    2023 <br />
+                    <small>26 des.</small>
+                  </span>
+                </div>
+              </div>
+              <div class="vertical-timeline-block">
+                <div class="vertical-timeline-icon navy-bg">
+                  <i class="fa fa-cogs"></i>
+                </div>
+
+                <div class="vertical-timeline-content">
+                  <h2>Consolidació i Innovació</h2>
+                  <p>
+                    <span>Aliances Estratègiques</span>: Per superar els reptes
+                    i consolidar la seva posició al mercat, Codis365 va formar
+                    aliances estratègiques amb líders i innovadors tecnològics.
+                    <span>Innovació</span>: Sota el lideratge del Peter Johnson,
+                    l'empresa va llançar un laboratori d'innovació amb
+                    l'objectiu d'explorar tecnologies emergents i integrar-les a
+                    les seves solucions. <span>Abast Global</span>: Al llarg de
+                    l'any 2024, Codis365 ha entrat amb èxit en diversos mercats
+                    internacionals, centrant-se en regions amb una alta demanda
+                    de serveis de transformació digital.
+                  </p>
+                  <a href="#features" class="btn btn-xs btn-primary">
+                    Més informació</a
+                  >
+                  <span class="vertical-date">
+                    2024... <br />
+                    <small>31 des.</small>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="testimonials" class="navy-section testimonials" style="margin-top: 0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center wow zoomIn">
-                    <i class="fa fa-comment big-icon"></i>
-                    <h2 class="h2ash1" style="color: white">
-                        La confiança dels nostres usuaris i clients...
-                    </h2>
-                    <div class="testimonials-text">
-                        <i>"Aquesta aplicació web ha suposat un abans i un després per a la nostra logística. La generació massiva de codis de barres i el seguiment en temps real han optimitzat tota la nostra cadena de subministrament. És fiable, ràpida i exactament el que necessitàvem. Estic impressionat amb les opcions de personalització per als codis promocionals. Crear codis QR atractius i alineats amb la marca per a les nostres campanyes ha obert noves oportunitats per a la interacció amb els clients i l'anàlisi de dades."
-                        </i>
-                    </div>
-                    <small>
-                        <strong>12.02.2023 - Andy Smith</strong>
-                    </small>
-                </div>
+    <section
+      id="testimonials"
+      class="navy-section testimonials"
+      style="margin-top: 0"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center wow zoomIn">
+            <i class="fa fa-comment big-icon"></i>
+            <h2 class="h2ash1" style="color: white">
+              La confiança dels nostres usuaris i clients...
+            </h2>
+            <div class="testimonials-text">
+              <i
+                >"Aquesta aplicació web ha suposat un abans i un després per a
+                la nostra logística. La generació massiva de codis de barres i
+                el seguiment en temps real han optimitzat tota la nostra cadena
+                de subministrament. És fiable, ràpida i exactament el que
+                necessitàvem. Estic impressionat amb les opcions de
+                personalització per als codis promocionals. Crear codis QR
+                atractius i alineats amb la marca per a les nostres campanyes ha
+                obert noves oportunitats per a la interacció amb els clients i
+                l'anàlisi de dades."
+              </i>
             </div>
+            <small>
+              <strong>12.02.2023 - Andy Smith</strong>
+            </small>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="comments gray-section" style="margin-top: 0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
-                    <h2 class="h2ash1">Algunes de les opinions dels nostres socis</h2>
-                    <p>"Descobreix l'impacte de col·laborar amb nosaltres a través de les veus d'aquells que ens coneixen millor. Els nostres socis comparteixen les seves històries de creixement, innovació i èxit, destacant com les nostres solucions de codis de barres han potenciat les seves operacions. Endinsa't en les seves experiències per veure els beneficis reals d'unir-te a la nostra xarxa."</p>
-                </div>
-            </div>
-            <div class="row features-block">
-                <div class="col-lg-4">
-                    <div class="bubble">
-                        "L'aplicació Codis365 ha revolucionat el nostre procés de caixa, la precisió en l'escaneig, i és increïblement fàcil d'utilitzar. La gestió d'inventaris ara és molt més senzilla!"
-                    </div>
-                    <div class="comments-avatar">
-                        <a href="" class="float-left">
-                            <img src="img/avatar3.jpg" alt="primera persona de l'equip de la nostra empresa">
-                        </a>
-                        <div class="media-body">
-                            <div class="commens-name">
-                                Emily Brown
-                            </div>
-                            <small class="text-muted">Coordinadora d'esdeveniments a NextGen</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="bubble">
-                        "Com a petita empresa, Codis365 ens ha permès competir en igualtat de condicions. L'assequibilitat i la validació en temps real han millorat la presentació dels nostres productes."
-                    </div>
-                    <div class="comments-avatar">
-                        <a href="" class="float-left">
-                            <img src="img/avatar1.jpg" width="42" height="42" alt="segona persona de l'equip de la nostra empresa">
-                        </a>
-                        <div class="media-body">
-                            <div class="commens-name">
-                                James Johnson
-                            </div>
-                            <small class="text-muted">Gerent d'operacions a POS Sales Slu, Barcelona</small>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="bubble">
-                        "Des d'una perspectiva informàtica, les característiques de seguretat i la fàcil integració amb sistemes existents la converteixen en una opció destacada. L'equip de suport és genial."
-                    </div>
-                    <div class="comments-avatar">
-                        <a href="" class="float-left">
-                            <img src="img/avatar2.jpg" alt="tercera persona de l'equip de la nostra empresa">
-                        </a>
-                        <div class="media-body">
-                            <div class="commens-name">
-                                Michael Smith
-                            </div>
-                            <small class="text-muted">Gerent IT a Sales.com</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h2 class="h2ash1">Algunes de les opinions dels nostres socis</h2>
+            <p>
+              "Descobreix l'impacte de col·laborar amb nosaltres a través de les
+              veus d'aquells que ens coneixen millor. Els nostres socis
+              comparteixen les seves històries de creixement, innovació i èxit,
+              destacant com les nostres solucions de codis de barres han
+              potenciat les seves operacions. Endinsa't en les seves
+              experiències per veure els beneficis reals d'unir-te a la nostra
+              xarxa."
+            </p>
+          </div>
         </div>
+        <div class="row features-block">
+          <div class="col-lg-4">
+            <div class="bubble">
+              "L'aplicació Codis365 ha revolucionat el nostre procés de caixa,
+              la precisió en l'escaneig, i és increïblement fàcil d'utilitzar.
+              La gestió d'inventaris ara és molt més senzilla!"
+            </div>
+            <div class="comments-avatar">
+              <a href="" class="float-left">
+                <img
+                  src="img/avatar3.jpg"
+                  alt="primera persona de l'equip de la nostra empresa"
+                />
+              </a>
+              <div class="media-body">
+                <div class="commens-name">Emily Brown</div>
+                <small class="text-muted"
+                  >Coordinadora d'esdeveniments a NextGen</small
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="bubble">
+              "Com a petita empresa, Codis365 ens ha permès competir en igualtat
+              de condicions. L'assequibilitat i la validació en temps real han
+              millorat la presentació dels nostres productes."
+            </div>
+            <div class="comments-avatar">
+              <a href="" class="float-left">
+                <img
+                  src="img/avatar1.jpg"
+                  width="42"
+                  height="42"
+                  alt="segona persona de l'equip de la nostra empresa"
+                />
+              </a>
+              <div class="media-body">
+                <div class="commens-name">James Johnson</div>
+                <small class="text-muted"
+                  >Gerent d'operacions a POS Sales Slu, Barcelona</small
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="bubble">
+              "Des d'una perspectiva informàtica, les característiques de
+              seguretat i la fàcil integració amb sistemes existents la
+              converteixen en una opció destacada. L'equip de suport és genial."
+            </div>
+            <div class="comments-avatar">
+              <a href="" class="float-left">
+                <img
+                  src="img/avatar2.jpg"
+                  alt="tercera persona de l'equip de la nostra empresa"
+                />
+              </a>
+              <div class="media-body">
+                <div class="commens-name">Michael Smith</div>
+                <small class="text-muted">Gerent IT a Sales.com</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
-                    <h2 class="h2ash1">Funcionalitats en constant evolució</h2>
-                    <p>A més, podràs gaudir de les següents funcions addicionals</p>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-5 col-lg-offset-1 features-text">
-                    <small>Codis365</small>
-                    <h2>Predicció d'Inventari</h2>
-                    <i class="fa fa-bar-chart big-icon float-right"></i>
-                    <p>Utilitza algoritmes d'aprenentatge automàtic per analitzar les dades d'escaneig de codis de barres, oferint informació predictiva sobre les necessitats d'inventari. Aquesta funció prediu els nivells d'estoc, ajudant les empreses a anticipar pics de demanda i a evitar sobreestocs o ruptures d'estoc, optimitzant la gestió d'inventari basant-se en tendències històriques de vendes i fluctuacions estacionals.</p>
-                </div>
-                <div class="col-lg-5 features-text">
-                    <small>Codis365</small>
-                    <h2>Generació de Codis per Veu</h2>
-                    <i class="fa fa-bolt big-icon float-right"></i>
-                    <p>Integra tecnologia de reconeixement de veu per permetre als usuaris crear codis de barres sense utilitzar les mans. Aquesta innovació és especialment útil en entorns on l'entrada manual de dades és poc pràctica o quan els usuaris necessiten fer diverses tasques alhora. Simplement parlant els detalls del producte o el codi es genera el codi de barres corresponent, agilitzant el procés en magatzems, espais comercials o durant auditories d'inventari.</p>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-5 col-lg-offset-1 features-text">
-                    <small>Codis365</small>
-                    <h2>Escaneig AR i Superposició d'Informació</h2>
-                    <i class="fa fa-clock-o big-icon float-right"></i>
-                    <p>Millora el procés d'escaneig de codis de barres amb una funció de realitat augmentada (AR) que superposa informació detallada del producte, nivells d'estoc o dades de localització directament a la vista de l'usuari en temps real. Això pot transformar la manera com els usuaris interactuen amb l'inventari físic, fent més fàcil localitzar articles en grans magatzems o proporcionant informació addicional sobre els productes als clients en un entorn comercial.</p>
-                </div>
-                <div class="col-lg-5 features-text">
-                    <small>Codis365</small>
-                    <h2>Verificació de Codis amb Blockchain</h2>
-                    <i class="fa fa-users big-icon float-right"></i>
-                    <p>Implementa tecnologia blockchain per protegir les dades dels codis de barres, garantint l'autenticitat i la traçabilitat dels productes. Aquesta funció és de gran valor per a béns de luxe, productes farmacèutics i qualsevol indústria on els productes falsificats siguin una preocupació. Emmagatzemant la informació dels codis de barres en un blockchain, cada producte pot ser verificat com a autèntic i el seu recorregut a través de la cadena de subministrament es pot rastrejar de manera transparent des de la producció fins al consumidor final.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h2 class="h2ash1">Funcionalitats en constant evolució</h2>
+            <p>A més, podràs gaudir de les següents funcions addicionals</p>
+          </div>
         </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-5 col-lg-offset-1 features-text">
+            <small>Codis365</small>
+            <h2>Predicció d'Inventari</h2>
+            <i class="fa fa-bar-chart big-icon float-right"></i>
+            <p>
+              Utilitza algoritmes d'aprenentatge automàtic per analitzar les
+              dades d'escaneig de codis de barres, oferint informació predictiva
+              sobre les necessitats d'inventari. Aquesta funció prediu els
+              nivells d'estoc, ajudant les empreses a anticipar pics de demanda
+              i a evitar sobreestocs o ruptures d'estoc, optimitzant la gestió
+              d'inventari basant-se en tendències històriques de vendes i
+              fluctuacions estacionals.
+            </p>
+          </div>
+          <div class="col-lg-5 features-text">
+            <small>Codis365</small>
+            <h2>Generació de Codis per Veu</h2>
+            <i class="fa fa-bolt big-icon float-right"></i>
+            <p>
+              Integra tecnologia de reconeixement de veu per permetre als
+              usuaris crear codis de barres sense utilitzar les mans. Aquesta
+              innovació és especialment útil en entorns on l'entrada manual de
+              dades és poc pràctica o quan els usuaris necessiten fer diverses
+              tasques alhora. Simplement parlant els detalls del producte o el
+              codi es genera el codi de barres corresponent, agilitzant el
+              procés en magatzems, espais comercials o durant auditories
+              d'inventari.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-5 col-lg-offset-1 features-text">
+            <small>Codis365</small>
+            <h2>Escaneig AR i Superposició d'Informació</h2>
+            <i class="fa fa-clock-o big-icon float-right"></i>
+            <p>
+              Millora el procés d'escaneig de codis de barres amb una funció de
+              realitat augmentada (AR) que superposa informació detallada del
+              producte, nivells d'estoc o dades de localització directament a la
+              vista de l'usuari en temps real. Això pot transformar la manera
+              com els usuaris interactuen amb l'inventari físic, fent més fàcil
+              localitzar articles en grans magatzems o proporcionant informació
+              addicional sobre els productes als clients en un entorn comercial.
+            </p>
+          </div>
+          <div class="col-lg-5 features-text">
+            <small>Codis365</small>
+            <h2>Verificació de Codis amb Blockchain</h2>
+            <i class="fa fa-users big-icon float-right"></i>
+            <p>
+              Implementa tecnologia blockchain per protegir les dades dels codis
+              de barres, garantint l'autenticitat i la traçabilitat dels
+              productes. Aquesta funció és de gran valor per a béns de luxe,
+              productes farmacèutics i qualsevol indústria on els productes
+              falsificats siguin una preocupació. Emmagatzemant la informació
+              dels codis de barres en un blockchain, cada producte pot ser
+              verificat com a autèntic i el seu recorregut a través de la cadena
+              de subministrament es pot rastrejar de manera transparent des de
+              la producció fins al consumidor final.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="pricing" class="pricing">
-        <div class="container">
-            <div class="row m-b-lg">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
-                    <h2 class="h2ash1">Preus del servei</h2>
-                    <p>Gaudeix de tres sistemes de preus diferents segons les teves necessitats</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 wow zoomIn">
-                    <ul class="pricing-plan list-unstyled">
-                        <li class="pricing-title">
-                            Bàsic
-                        </li>
-                        <li class="pricing-desc">
-                            Generació estàndard de codis de barres (p. ex., UPC, codis QR, EAN) amb personalització bàsica (mida, color). Accés per a un sol usuari. Eines bàsiques d'informes per analitzar la generació de codis de barres i les taxes d'escaneig. Suport per correu electrònic amb un temps de resposta de 48 hores.
-                        </li>
-                        <li class="pricing-price">
-                            <span>5 €</span> / mes
-                        </li>
-                        <li>
-                            Codis de barres estàndard
-                        </li>
-                        <li>
-                            Accés d'un sol usuari
-                        </li>
-                        <li>
-                            Informes bàsics
-                        </li>
-                        <li>
-                            Suport: correu electrònic amb 48 hores/TR
-                        </li>
-                        <li>
-                            <a class="btn btn-primary btn-xs" href="https://backend.codis365.cat/singup?type=basic">Registrar-se</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 wow zoomIn">
-                    <ul class="pricing-plan list-unstyled selected">
-                        <li class="pricing-title">
-                            Estàndard
-                        </li>
-                        <li class="pricing-desc">
-                            Personalització avançada de codis de barres, incloent-hi logotips o text i una selecció més àmplia de tipus de codis de barres. Accés multiusuari (fins a 5 comptes). Prova i validació dinàmica de codis de barres amb capacitats d'escaneig en temps real. Integració d'inventaris amb un sistema extern per al seguiment automatitzat. Suport prioritari per correu electrònic i xat per a una resolució més ràpida dels problemes.
-                        </li>
-                        <li class="pricing-price">
-                            <span>15 €</span> / mes
-                        </li>
-                        <li>
-                            Personalització de codis
-                        </li>
-                        <li>
-                            Accés multiusuari
-                        </li>
-                        <li>
-                            Codis dinàmics
-                        </li>
-                        <li>
-                            Integració d'inventari
-                        </li>
-                        <li>
-                            <strong>Plataforma de suport</strong>
-                        </li>
-                        <li class="plan-action">
-                            <a class="btn btn-primary btn-xs" href="https://backend.codis365.cat/singup?type=standard">Registrar-se</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 wow zoomIn">
-                    <ul class="pricing-plan list-unstyled">
-                        <li class="pricing-title">
-                            Premium
-                        </li>
-                        <li class="pricing-desc">
-                            Predicció intel·ligent d'inventari mitjançant IA per anticipar les necessitats d'estoc basades en dades d'escaneig. Accés il·limitat d'usuaris, adequat per a equips grans i organitzacions. Escaneig amb realitat augmentada (AR) i superposició d'informació per a una visió interactiva del producte. Verificació de codis de barres basada en blockchain per garantir l'autenticitat i la transparència en la cadena de subministrament. Accés a l'API per a integració personalitzada amb sistemes externs il·limitats. Suport premium 24/7, incloent-hi correu electrònic, xat, telèfon i un gestor de comptes dedicat.
-                        </li>
-                        <li class="pricing-price">
-                            <span>35 €</span> / mes
-                        </li>
-                        <li>
-                            Inventari intel·ligent amb IA
-                        </li>
-                        <li>
-                            Accés il·limitat d'usuaris
-                        </li>
-                        <li>
-                            Escaneig AR
-                        </li>
-                        <li>
-                            Basat en blockchain
-                        </li>
-                        <li>
-                            Accés a API externes
-                        </li>
-                        <li>
-                            <strong>Plataforma de suport prioritari</strong>
-                        </li>
-                        <li>
-                            <a class="btn btn-primary btn-xs" href="https://backend.codis365.cat/singup?type=premium">Registrar-se</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row m-t-lg">
-                <div class="col-lg-12 text-center m-t-lg">
-                    <p>Cada nivell està dissenyat per oferir funcions i opcions de suport progressivament més sofisticades, adaptant-se a una àmplia gamma de necessitats empresarials, des de petites startups fins a grans empreses. Aquest enfocament escalonat permet als clients triar un pla que s'ajusti als seus requisits actuals, proporcionant alhora la flexibilitat per actualitzar-se a mesura que el seu negoci creix.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row m-b-lg">
+          <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h2 class="h2ash1">Preus del servei</h2>
+            <p>
+              Gaudeix de tres sistemes de preus diferents segons les teves
+              necessitats
+            </p>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-lg-4 wow zoomIn">
+            <ul class="pricing-plan list-unstyled">
+              <li class="pricing-title">Bàsic</li>
+              <li class="pricing-desc">
+                Generació estàndard de codis de barres (p. ex., UPC, codis QR,
+                EAN) amb personalització bàsica (mida, color). Accés per a un
+                sol usuari. Eines bàsiques d'informes per analitzar la generació
+                de codis de barres i les taxes d'escaneig. Suport per correu
+                electrònic amb un temps de resposta de 48 hores.
+              </li>
+              <li class="pricing-price"><span>5 €</span> / mes</li>
+              <li>Codis de barres estàndard</li>
+              <li>Accés d'un sol usuari</li>
+              <li>Informes bàsics</li>
+              <li>Suport: correu electrònic amb 48 hores/TR</li>
+              <li>
+                <a
+                  class="btn btn-primary btn-xs"
+                  href="https://backend.codis365.cat/singup?type=basic"
+                  >Registrar-se</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 wow zoomIn">
+            <ul class="pricing-plan list-unstyled selected">
+              <li class="pricing-title">Estàndard</li>
+              <li class="pricing-desc">
+                Personalització avançada de codis de barres, incloent-hi
+                logotips o text i una selecció més àmplia de tipus de codis de
+                barres. Accés multiusuari (fins a 5 comptes). Prova i validació
+                dinàmica de codis de barres amb capacitats d'escaneig en temps
+                real. Integració d'inventaris amb un sistema extern per al
+                seguiment automatitzat. Suport prioritari per correu electrònic
+                i xat per a una resolució més ràpida dels problemes.
+              </li>
+              <li class="pricing-price"><span>15 €</span> / mes</li>
+              <li>Personalització de codis</li>
+              <li>Accés multiusuari</li>
+              <li>Codis dinàmics</li>
+              <li>Integració d'inventari</li>
+              <li>
+                <strong>Plataforma de suport</strong>
+              </li>
+              <li class="plan-action">
+                <a
+                  class="btn btn-primary btn-xs"
+                  href="https://backend.codis365.cat/singup?type=standard"
+                  >Registrar-se</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 wow zoomIn">
+            <ul class="pricing-plan list-unstyled">
+              <li class="pricing-title">Premium</li>
+              <li class="pricing-desc">
+                Predicció intel·ligent d'inventari mitjançant IA per anticipar
+                les necessitats d'estoc basades en dades d'escaneig. Accés
+                il·limitat d'usuaris, adequat per a equips grans i
+                organitzacions. Escaneig amb realitat augmentada (AR) i
+                superposició d'informació per a una visió interactiva del
+                producte. Verificació de codis de barres basada en blockchain
+                per garantir l'autenticitat i la transparència en la cadena de
+                subministrament. Accés a l'API per a integració personalitzada
+                amb sistemes externs il·limitats. Suport premium 24/7,
+                incloent-hi correu electrònic, xat, telèfon i un gestor de
+                comptes dedicat.
+              </li>
+              <li class="pricing-price"><span>35 €</span> / mes</li>
+              <li>Inventari intel·ligent amb IA</li>
+              <li>Accés il·limitat d'usuaris</li>
+              <li>Escaneig AR</li>
+              <li>Basat en blockchain</li>
+              <li>Accés a API externes</li>
+              <li>
+                <strong>Plataforma de suport prioritari</strong>
+              </li>
+              <li>
+                <a
+                  class="btn btn-primary btn-xs"
+                  href="https://backend.codis365.cat/singup?type=premium"
+                  >Registrar-se</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row m-t-lg">
+          <div class="col-lg-12 text-center m-t-lg">
+            <p>
+              Cada nivell està dissenyat per oferir funcions i opcions de suport
+              progressivament més sofisticades, adaptant-se a una àmplia gamma
+              de necessitats empresarials, des de petites startups fins a grans
+              empreses. Aquest enfocament escalonat permet als clients triar un
+              pla que s'ajusti als seus requisits actuals, proporcionant alhora
+              la flexibilitat per actualitzar-se a mesura que el seu negoci
+              creix.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="gray-section contact">
-        <div class="container">
-            <div class="row m-b-lg">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
-                    <h2 class="h2ash1">Contacta'ns</h2>
-                    <p>Contacta amb nosaltres si tens cap dubte sobre què pot fer Codis365 per automatitzar les teves vendes, inventari, logística i qualsevol altre servei.</p>
-                </div>
-            </div>
-            <div class="row m-b-lg justify-content-center">
-                <div class="col-lg-3 ">
-                    <address>
-                        <strong><span class="navy">Grau d'Enginyeria Informàtica, Treball Final de Grau 2024</span></strong><br>
-                        Rambla del Poblenou, 154-156<br>
-                        08018, Barcelona, Espanya<br>
-                        <abbr title="Correu electrònic">Correu electrònic:</abbr> <a href="mailto:support@Codis365.cat">jbalcells@uoc.edu</a>
-                    </address>
-                </div>
-                <div class="col-lg-4">
-                    <p class="text-color">
-                        Preparat per revolucionar la gestió del teu inventari i elevar l'experiència de la teva marca amb solucions innovadores de codis de barres? Contacta amb nosaltres avui mateix per descobrir com els nostres serveis de codis de barres poden integrar-se de manera eficient a les teves operacions, garantint eficàcia, fiabilitat i innovació en cada escaneig. Desbloquegem tot el potencial del teu negoci junts.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <a href="mailto:jbalcells@uoc.edu" class="btn btn-primary">Envia'ns un correu</a>
-                    <p class="m-t-sm">
-                        O segueix-nos a les xarxes socials
-                    </p>
-                    <ul class="list-inline social-icon">
-                        <li class="list-inline-item"><a href="https://twiter.com/codis365.cat" aria-label="Segueix-nos a Twitter"> <i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li class="list-inline-item"><a href="https://facebook.com/codis365.cat" aria-label="Segueix-nos a Facebook"> <i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li class="list-inline-item"><a href="https://linkedin.com/codis365.cat" aria-label="Segueix-nos a Linkedin"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center m-t-lg m-b-lg">
-                    <p><strong>&copy; 2024 Codis365</strong><br>UOC, Grau d'Enginyeria Informàtica - Treball Final de Grau 2024</p>
-                    <p>
-                        <a href="https://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=http%3A%2F%2Fapp.codis365.cat%2F&usermedium=all&vextwarning=&warning=no">
-                            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="HTML+CSS vàlid!">
-                        </a>
-                        <a href="https://www.w3.org/WAI/WCAG2A-Conformance" title="Explicació del nivell A de conformitat WCAG 2"> 
-                            <img height="32" width="88" src="https://www.w3.org/WAI/WCAG22/wcag2.2A" alt="Conformitat de nivell A, W3C WAI Web Content Accessibility Guidelines 2.2">
-                        </a>
-                    </p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row m-b-lg">
+          <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h2 class="h2ash1">Contacta'ns</h2>
+            <p>
+              Contacta amb nosaltres si tens cap dubte sobre què pot fer
+              Codis365 per automatitzar les teves vendes, inventari, logística i
+              qualsevol altre servei.
+            </p>
+          </div>
         </div>
+        <div class="row m-b-lg justify-content-center">
+          <div class="col-lg-3">
+            <address>
+              <strong
+                ><span class="navy"
+                  >Grau d'Enginyeria Informàtica, Treball Final de Grau
+                  2024</span
+                ></strong
+              ><br />
+              Rambla del Poblenou, 154-156<br />
+              08018, Barcelona, Espanya<br />
+              <abbr title="Correu electrònic">Correu electrònic:</abbr>
+              <a href="mailto:support@Codis365.cat">jbalcells@uoc.edu</a>
+            </address>
+          </div>
+          <div class="col-lg-4">
+            <p class="text-color">
+              Preparat per revolucionar la gestió del teu inventari i elevar
+              l'experiència de la teva marca amb solucions innovadores de codis
+              de barres? Contacta amb nosaltres avui mateix per descobrir com
+              els nostres serveis de codis de barres poden integrar-se de manera
+              eficient a les teves operacions, garantint eficàcia, fiabilitat i
+              innovació en cada escaneig. Desbloquegem tot el potencial del teu
+              negoci junts.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <a href="mailto:jbalcells@uoc.edu" class="btn btn-primary"
+              >Envia'ns un correu</a
+            >
+            <p class="m-t-sm">O segueix-nos a les xarxes socials</p>
+            <ul class="list-inline social-icon">
+              <li class="list-inline-item">
+                <a
+                  href="https://twiter.com/codis365.cat"
+                  aria-label="Segueix-nos a Twitter"
+                >
+                  <i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://facebook.com/codis365.cat"
+                  aria-label="Segueix-nos a Facebook"
+                >
+                  <i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://linkedin.com/codis365.cat"
+                  aria-label="Segueix-nos a Linkedin"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center m-t-lg m-b-lg">
+            <p>
+              <strong>&copy; 2024 Codis365</strong><br />UOC, Grau d'Enginyeria
+              Informàtica - Treball Final de Grau 2024
+            </p>
+            <p>
+              <a
+                href="https://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=http%3A%2F%2Fapp.codis365.cat%2F&usermedium=all&vextwarning=&warning=no"
+              >
+                <img
+                  style="border: 0; width: 88px; height: 31px"
+                  src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                  alt="HTML+CSS vàlid!"
+                />
+              </a>
+              <a
+                href="https://www.w3.org/WAI/WCAG2A-Conformance"
+                title="Explicació del nivell A de conformitat WCAG 2"
+              >
+                <img
+                  height="32"
+                  width="88"
+                  src="https://www.w3.org/WAI/WCAG22/wcag2.2A"
+                  alt="Conformitat de nivell A, W3C WAI Web Content Accessibility Guidelines 2.2"
+                />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Main scripts -->
@@ -652,69 +1163,80 @@
     <script src="js/wow.min.js"></script>
     <script src="js/inspinia.js"></script>
 
-
     <script>
-        $(document).ready(function () {
-
-            $('body').scrollspy({
-                target: '#navbar',
-                offset: 80
-            });
-
-        // Page scrolling feature
-            $('a.page-scroll').bind('click', function(event) {
-                var link = $(this);
-                $('html, body').stop().animate({
-                    scrollTop: $(link.attr('href')).offset().top - 50
-                }, 500);
-                event.preventDefault();
-                $("#navbar").collapse('hide');
-            });
+      $(document).ready(function () {
+        $("body").scrollspy({
+          target: "#navbar",
+          offset: 80,
         });
 
-        var cbpAnimatedHeader = (function() {
-            var docElem = document.documentElement,
-            header = document.querySelector( '.navbar-default' ),
-            logo = document.querySelector('.inverted-logo'),
-            didScroll = false,
-            changeHeaderOn = 200;
-            function init() {
-                window.addEventListener( 'scroll', function( event ) {
-                    if( !didScroll ) {
-                        didScroll = true;
-                        setTimeout( scrollPage, 250 );
-                    }
-                }, false );
+        // Page scrolling feature
+        $("a.page-scroll").bind("click", function (event) {
+          var link = $(this);
+          $("html, body")
+            .stop()
+            .animate(
+              {
+                scrollTop: $(link.attr("href")).offset().top - 50,
+              },
+              500
+            );
+          event.preventDefault();
+          $("#navbar").collapse("hide");
+        });
+      });
+
+      var cbpAnimatedHeader = (function () {
+        var docElem = document.documentElement,
+          header = document.querySelector(".navbar-default"),
+          logo = document.querySelector(".inverted-logo"),
+          didScroll = false,
+          changeHeaderOn = 200;
+
+        function init() {
+          var windowWidth = window.innerWidth;
+          if (windowWidth <= 450) {
+            $(logo).removeClass("inverted-logo");
+          } else {
+            $(logo).addClass("inverted-logo");
+          }
+          window.addEventListener(
+            "scroll",
+            function (event) {
+              if (!didScroll) {
+                didScroll = true;
+                setTimeout(scrollPage, 250);
+              }
+            },
+            false
+          );
+        }
+
+        function scrollPage() {
+          var sy = scrollY();
+          var windowWidth = window.innerWidth;
+          if (windowWidth > 450) {
+            if (sy >= changeHeaderOn) {
+              $(header).addClass("navbar-scroll");
+              $(logo).removeClass("inverted-logo");
+            } else {
+              $(header).removeClass("navbar-scroll");
+              $(logo).addClass("inverted-logo");
             }
-            function scrollPage() {
-                var sy = scrollY();
-                if ( sy >= changeHeaderOn ) {
-                    $(header).addClass('navbar-scroll')
-                    $(logo).removeClass('inverted-logo');
-                }
-                else {
-                    $(header).removeClass('navbar-scroll')
-                    $(logo).addClass('inverted-logo');
-                }
-                didScroll = false;
-            }
-            function scrollY() {
-                return window.pageYOffset || docElem.scrollTop;
-            }
-            init();
+          } else {
+            $(logo).removeClass("inverted-logo");
+          }
+          didScroll = false;
+        }
 
-        })();
+        function scrollY() {
+          return window.pageYOffset || docElem.scrollTop;
+        }
 
-        // Activate WOW.js plugin for animation on scrol
-        new WOW().init();
+        init();
+      })();
 
-        document.addEventListener('DOMContentLoaded', function () {
-            const avatarUrl = 'https://avatars.dicebear.com/api/identicon/random-seed.svg'; // URL para generar avatar
-            const avatarElement = document.getElementById('dynamic-avatar');
-            avatarElement.src = avatarUrl;
-        });        
-
+      new WOW().init();
     </script>
-
-</body>
+  </body>
 </html>
