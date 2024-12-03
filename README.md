@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="images/logo.jpg" style="display: block;  margin-left: auto;  margin-right: auto;  width: 15%;">
+  <img src="images/logo.jpg" style="display: block;  margin-left: auto;  margin-right: auto;  width: 45%;">
   <h3 align="center">README.MD</h3>
 
   <p align="center">
@@ -52,7 +52,7 @@ Aquest projecte compleix amb tots els estàndards d'accessibilitat de les WCAG 2
 
 
 <!-- SCREENSHOTS -->
-## Screenshots
+## Captures de pantalla
 <div id="screenshots"></div>
 
 <div id="block" align="center">
