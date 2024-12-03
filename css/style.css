@@ -8274,7 +8274,7 @@ body.landing-page {
 .landing-page .pricing-plan {
   margin: 20px 30px 0 30px;
   border-radius: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .landing-page .pricing-plan.selected {
   transform: scale(1.1);
@@ -8477,12 +8477,12 @@ body.landing-page {
     border-bottom: 1px solid #e7eaec;
     border-radius: 0;
   }
-  .landing-page .nav > li > a {
-    padding: 10px 10px 15px 10px;
-  }
-  .landing-page .navbar-nav > li > a {
+  /* .landing-page .nav > li > a { */
+    /* padding: 10px 10px 15px 10px; */
+  /* } */
+  /* .landing-page .navbar-nav > li > a {
     padding: 20px 10px;
-  }
+  } */
   .landing-page .navbar .navbar-brand {
     margin-top: 5px;
     border-radius: 5px;
@@ -9765,6 +9765,11 @@ body.md-skin {
   }
 }
 @media (max-width: 768px) {
+
+  .landing-page .pricing-plan {
+    margin-bottom: 30px;
+  }
+  
   .carousel-caption{
     padding-top: 60px!important;
   }
