@@ -1450,8 +1450,8 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
   margin-top: 0;
 }
 .top-navigation .navbar-brand {
-  #background: var(--baseColor);
-  #color: #fff;
+  /* background: var(--baseColor); */
+  /* color: #fff; */
   padding: 15px 25px;
   font-size: 18px;
   line-height: 20px;
@@ -6286,9 +6286,7 @@ dd.project-people {
   color: var(--baseColor);
   display: block;
 }
-.faq-question:hover {
-  /* color: #var(--baseColorHoverBtn); */
-}
+
 .faq-answer {
   margin-top: 10px;
   background: #f3f3f4;
@@ -7562,14 +7560,16 @@ body.body-small .vote-icon {
  *    </div>
  *
  */
-.sk-spinner-cube-grid {
+
+/* .sk-spinner-cube-grid {
   /*
    * Spinner positions
    * 1 2 3
    * 4 5 6
    * 7 8 9
    */
-}
+/* } */
+
 .sk-spinner-cube-grid.sk-spinner {
   width: 30px;
   height: 30px;
@@ -7901,7 +7901,8 @@ body.landing-page {
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   background-color: #fff;
 }
-.landing-page {
+
+/* .landing-page {
   /* CUSTOMIZE THE NAVBAR
   -------------------------------------------------- */
   /* Flip around the padding for proper display in narrow viewports */
@@ -7918,7 +7919,8 @@ body.landing-page {
   ------------------------- */
   /* RESPONSIVE CSS
   -------------------------------------------------- */
-}
+/* } */
+
 .landing-page button:focus {
   outline: 0;
 }
@@ -7994,9 +7996,9 @@ body.landing-page {
   font-size: 14px;
 }
 
-.btnlogin{
-  #color: black!important;
-}
+/* .btnlogin{
+  /* color: black!important; */
+/*} */
 
 .landing-page .navbar-nav > li > a {
   padding-top: 20px;
@@ -8068,9 +8070,9 @@ body.landing-page {
 .landing-page .nav > li > a {
   padding: 7px 10px 15px 10px;
 }
-.landing-page .navbar-scroll .navbar-nav > li > a {
-  #padding: 20px 10px;
-}
+/* .landing-page .navbar-scroll .navbar-nav > li > a {
+  /* padding: 20px 10px; */
+/*} */
 .landing-page .navbar-default .navbar-nav > li .nav-link.active,
 .landing-page .navbar-default .navbar-nav > li .nav-link.active:hover {
   border-top: 6px solid var(--baseColor);
@@ -8087,7 +8089,7 @@ body.landing-page {
   border-bottom: 1px solid #e7eaec !important;
 }
 .landing-page .navbar.navbar-scroll .navbar-brand {
-  #margin-top: 5px;
+  /* margin-top: 5px; */
   border-radius: 5px;
   font-size: 12px;
   padding: 10px;
@@ -8410,11 +8412,12 @@ body.landing-page {
   border-color: #1dc5a3;
 }
 @media (min-width: 768px) {
-  .landing-page {
+
+  /* .landing-page { */
     /* Navbar positioning foo */
     /* The navbar becomes detached from the top, so we round the corners */
     /* Bump up size of carousel content */
-  }
+  /* } */
   .landing-page .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -9244,9 +9247,10 @@ body.light-skin {
   background-color: #f9f9f9;
   color: #3e5476;
 }
-.light-skin {
+/* .light-skin { */
   /* For handle diferent bg color in MVC version */
-}
+/* } */
+
 .light-skin .select2-container--default .select2-selection--single,
 .light-skin .select2-container--default .select2-selection--multiple,
 .light-skin .select2-container--default .select2-selection--single .select2-selection__arrow {
@@ -9854,6 +9858,7 @@ body.md-skin {
     display: inline-block;
   }
 }
+
 /* Only demo */
 @media (max-width: 1000px) {
   .welcome-message {
