@@ -5,14 +5,14 @@
   <h3 align="center">README.MD</h3>
 
   <p align="center">
-    Aquest repositori conté el codi font de la pàgina principal del projecte accessible a https://app.codis365.es
+    Aquest repositori conté el codi font de la pàgina d'aterratge del projecte Codis365 accessible desde https://app.codis365.es, https://www.codis365.es o https://codis365.es
     <br />
   </p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of contents</summary>
+  <summary>Taula de continguts</summary>
   <ol>
     <li><a href="#description">Descripció</a></li>
     <li><a href="#accessibility">Consideracions d'accessibilitat</a></li>
@@ -32,7 +32,7 @@ Aquesta pàgina és una pàgina web independent creada específicament per a una
 >Totes les dades esmentades són fictícies però segons el tema del projecte representen un mitjà real d'accés al backend a través de la opció "Login"
 
 <!-- ACCESSIBILITY -->
-## Accessibility considerations
+## Consideracions d'accessibilitat
 <div id="accessibility"></div>
 
 Aquest projecte compleix amb tots els estàndards d'accessibilitat de les WCAG 2.0 i s'ha verificat a través d'eines del W3C (World Wide Web Consortium) com ara "W3C CSS Validation Service" o "Web Content Accessibility Guidelines (WCAG) 2.2 Level AA Conformance".
@@ -55,6 +55,8 @@ Aquest projecte compleix amb tots els estàndards d'accessibilitat de les WCAG 2
 ## Captures de pantalla
 <div id="screenshots"></div>
 
+Es mostren a continuaciió algunes captures de pantalla de la pàgina d'aterratge tant en versió d'escriptori com en versió mòbil.
+
 <div id="block" align="center">
     <div class="inline-block" style="display: inline-block; width: 25%">
         <img src="images/landingpage-1.png">
@@ -70,5 +72,17 @@ Aquest projecte compleix amb tots els estàndards d'accessibilitat de les WCAG 2
     <br>
     <div class="inline-block" style="display: inline-block; width: 25%">
         <img src="images/landingpage-4.png">
+    </div>
+    <br>
+    <div class="inline-block" style="display: inline-block; width: 25%">
+        <img src="images/landingpage-5.png">
+    </div>
+    <br>
+    <div class="inline-block" style="display: inline-block; width: 25%">
+        <img src="images/landingpage-6.png">
+    </div>
+    <br>
+    <div class="inline-block" style="display: inline-block; width: 25%">
+        <img src="images/landingpage-7.png">
     </div>
 </div>
