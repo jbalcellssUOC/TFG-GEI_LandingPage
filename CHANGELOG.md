@@ -2,7 +2,7 @@
 
 ## v1.0.2
 
-    Refinement of texts and new images as screenshots
+    Refinement of texts and new images as screenshots.
 
 ## v1.0.1
 
