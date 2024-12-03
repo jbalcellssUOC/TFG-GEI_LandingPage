@@ -22,7 +22,7 @@
 
 
 <!-- DESCRIPTION -->
-## Description
+## Descripció
 <div id="description"></div>
 
 Aquesta pàgina és una pàgina web independent creada específicament per a una campanya de màrqueting o publicitat. És on aterra un visitant després de fer clic en un enllaç en un correu electrònic, anuncis de Google, Bing, YouTube, Facebook, Instagram, Twitter o llocs similars a la web. A diferència de les pàgines web, que solen tenir molts objectius i fomentar l'exploració, les pàgines d'aterratge estan dissenyades amb un únic focus o objectiu, conegut com a crida a l'acció (CTA). Aquest enfocament fa que les pàgines d'aterratge siguin la millor opció per augmentar les taxes de conversió de les teves campanyes de màrqueting i reduir el teu cost d'adquirir un lead o venda. 
