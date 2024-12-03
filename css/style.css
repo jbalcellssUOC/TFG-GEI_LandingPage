@@ -8274,6 +8274,7 @@ body.landing-page {
 .landing-page .pricing-plan {
   margin: 20px 30px 0 30px;
   border-radius: 4px;
+  margin-bottom: 20px;
 }
 .landing-page .pricing-plan.selected {
   transform: scale(1.1);
