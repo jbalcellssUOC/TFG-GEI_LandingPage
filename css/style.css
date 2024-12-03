@@ -9765,6 +9765,14 @@ body.md-skin {
   }
 }
 @media (max-width: 768px) {
+  .carousel-caption{
+    padding-top: 60px!important;
+  }
+
+  .hsash2{
+    font-size: 26px!important;
+  }
+  
   #page-wrapper {
     position: inherit;
     margin: 0 0 0 0;
@@ -9828,6 +9836,7 @@ body.md-skin {
   }
 }
 @media (max-width: 350px) {
+
   .timeline-item .date {
     text-align: left;
     width: 110px;
