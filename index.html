@@ -1172,20 +1172,20 @@
         });
 
         // Page scrolling feature
-        $("a.page-scroll").bind("click", function (event) {
-          var link = $(this);
-          var target = $(link.attr("href"));
-          if (target.length) {
-            $("html, body")
-              .stop()
-              .animate(
-                {
-                  scrollTop: target.offset().top - 50,
-                },
-                500
-              );
-          }
-        });
+        // $("a.page-scroll").bind("click", function (event) {
+        //   var link = $(this);
+        //   var target = $(link.attr("href"));
+        //   if (target.length) {
+        //     $("html, body")
+        //       .stop()
+        //       .animate(
+        //         {
+        //           scrollTop: target.offset().top - 50,
+        //         },
+        //         500
+        //       );
+        //   }
+        // });
       });
 
       var cbpAnimatedHeader = (function () {
