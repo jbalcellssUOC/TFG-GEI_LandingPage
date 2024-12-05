@@ -36,10 +36,10 @@ switch ($error_code) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Error <?php echo $error_code; ?></title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-    <link rel="manifest" href="/images/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/errorimages/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/errorimages/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/errorimages/favicon-16x16.png">
+    <link rel="manifest" href="/errorimages/site.webmanifest">
 
     <style>
         body {
@@ -81,14 +81,14 @@ switch ($error_code) {
             display: inline-block;
             padding: 10px 20px;
             color: #fff;
-            background-color: #175E57;
+            background-color: #ff6f61;
             text-decoration: none;
             border-radius: 4px;
             font-size: 1rem;
             transition: background-color 0.3s ease;
         }
         a:hover {
-            background-color: #18a689;
+            background-color: #e55a50;
         }
         @media (max-width: 600px) {
             h1 {
@@ -106,7 +106,7 @@ switch ($error_code) {
 </head>
 <body>
     <div class="container">
-        <img src="/images/logo.jpg" alt="Logo CODIS365">
+        <img src="/errorimages/logo.jpg" alt="Logo CODIS365">
         <h1>Error <?php echo $error_code; ?></h1>
         <p><?php echo $error_message; ?></p>
         <p>Si us plau, torna a la pàgina d'inici fent clic en el botó següent o utilitza el botó enrere del teu navegador per tornar a la pàgina anterior.</p>
